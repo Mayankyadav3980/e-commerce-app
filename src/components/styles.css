@@ -1,0 +1,151 @@
+/* header styles */
+
+.header {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.cartitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.cartItemImg {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cartItemDetail {
+  display: flex;
+  flex: 1;
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+/* Home Page */
+
+.home {
+  display: flex;
+  width: 100%;
+}
+.carouselDev{
+  height: 10rem !important;
+}
+
+.filters {
+  background-color: rgb(32, 185, 32);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 15px 20px 0 5px;
+  height: 86vh;
+  border-radius: 2rem;
+}
+
+.filters > span {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.productContainer {
+  display: flex;
+  padding: 30px 150px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.products {
+  width: 30%;
+  margin: 10px;
+}
+
+.card-img {
+  height: 8rem;
+}
+.summary {
+  width: 30%;
+}
+
+.conf-pg {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  height: 30rem;
+  flex-direction: column;
+}
+
+.conf-pg h4 {
+  text-decoration: underline;
+}
+.confirmation{
+  color: rgb(55, 235, 55);
+  
+}
+
+.auth{
+  margin: 3rem 0;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  
+}
+.cont{
+  background-color: rgb(58, 211, 58);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  z-index: 1;
+  text-align: center;
+}
+.cont > span {
+  margin:auto 5rem;
+}
+
+/* Media Queries */
+@media (max-width: 750px) {
+  .filters {
+    width: 40%;
+    padding: 20px;
+    margin: 5px ;
+  }
+
+  .filters > span {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 18px !important;
+  }
+
+  .productContainer {
+    width: 60%;
+    padding: 0;
+    margin-left: 5rem;
+    text-align: center;
+  }
+
+  .search {
+    display: none !important;
+  }
+
+  .products {
+    width: 100%;
+  }
+}
