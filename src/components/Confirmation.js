@@ -9,7 +9,7 @@ const Confirmation = () => {
         Order Confirmed
         <FaRocket color="green" />
       </h1>
-      <Link to="/">
+      <Link to="/e-commerce-app">
         <h4>Back to home</h4>
       </Link>
     </div>

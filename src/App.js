@@ -13,10 +13,10 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/auth" element={<Auth />} />
-          <Route path="/confirmation" element={<Confirmation />} />
+          <Route path="/e-commerce-app" element={<Home />} />
+          <Route path="/e-commerce-app/cart" element={<Cart />} />
+          <Route path="/e-commerce-app/auth" element={<Auth />} />
+          <Route path="/e-commerce-app/confirmation" element={<Confirmation />} />
         </Routes>
       </div>
     </Router>

@@ -16,7 +16,7 @@ const Header = () => {
     <Navbar bg="light" varient="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/">
+          <Link to="/e-commerce-app">
             <img src={logo} alt="" className="logo" />
           </Link>
         </Navbar.Brand>
@@ -33,20 +33,20 @@ const Header = () => {
 
         <Nav>
           <Nav.Link>
-            <Link to="/">
+            <Link to="/e-commerce-app">
               Home
               <FaHome fontSize="20px" />
             </Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/Auth">
+            <Link to="/e-commerce-app/Auth">
               Login
               <FaCreativeCommonsBy fontSize="20" />
             </Link>
           </Nav.Link>
 
           <Nav.Link>
-            <Link to="/cart">
+            <Link to="/e-commerce-app/cart">
               Cart
               <FaShoppingCart color="black" fontSize="20" />
               <Badge>{cart.length}</Badge>

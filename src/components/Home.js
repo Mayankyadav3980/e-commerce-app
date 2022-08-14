@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <Link to="/auth">
+      <Link to="/e-commerce-app/auth">
         {cart.length !== 0 ? (
           <div className="cont">
             <span>

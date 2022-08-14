@@ -21,7 +21,7 @@ const Cart = () => {
 
   return (
     <div className="home">
-      <Link to="/auth">
+      <Link to="/e-commerce-app/auth">
         <FaArrowLeft
           style={{
             fontSize: "2rem",
@@ -87,7 +87,7 @@ const Cart = () => {
       <div className="filters summary">
         <span className="title">Subtotal ({cart.length}) items</span>
         <span style={{ fontWeight: 700, fontSize: 20 }}>Total: ₹ {total}</span>
-        <Link to="/confirmation">
+        <Link to="/e-commerce-app/confirmation">
           <Button
             type="button"
             style={{ backgroundColor: "none" }}

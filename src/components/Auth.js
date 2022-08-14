@@ -6,7 +6,7 @@ import { FaArrowLeft } from "react-icons/fa";
 const Auth = () => {
   return (
     <div className="auth">
-      <Link to="/">
+      <Link to="/e-commerce-app">
         <FaArrowLeft
           style={{
             fontSize: "2rem",
@@ -30,7 +30,7 @@ const Auth = () => {
             />
           </Form.Group>
 
-          <Link to="/cart">
+          <Link to="/e-commerce-app/cart">
             <Button variant="success" type="submit">
               Submit
             </Button>
