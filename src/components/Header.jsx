@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../images/emart.png";
-import { FaHome, FaShoppingCart, FaCreativeCommonsBy } from "react-icons/fa";
+import { FaHome, FaShoppingCart } from "react-icons/fa";
+import { MdOutlineAccountCircle } from "react-icons/md"
 import { Navbar, Badge, FormControl, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { CartState } from "../context/Context";
@@ -41,7 +42,7 @@ const Header = () => {
           <Nav.Link>
             <Link to="/e-commerce-app/Auth">
               Login
-              <FaCreativeCommonsBy fontSize="20" />
+              <MdOutlineAccountCircle fontSize="20" />
             </Link>
           </Nav.Link>
 

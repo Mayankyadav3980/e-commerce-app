@@ -2,6 +2,7 @@ import { CartState } from "../context/Context";
 import SingleProduct from "./SingleProduct";
 import { FaArrowRight, FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import itemData from "../data";
 
 const Home = () => {
   const {
@@ -25,7 +26,7 @@ const Home = () => {
       </Link>
 
       <div className="productContainer">
-        {products.map((prod) => (
+        {itemData.map((prod) => (
           <SingleProduct prod={prod} key={prod.id} />
         ))}
       </div>
